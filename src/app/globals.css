@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans@700&display=swap');
 
 body {
-  margin: 0;
+  color: #1f1f1f;
   font-size: 16px;
   line-height: 1.39;
-  font-family: "Roboto";
+  margin: 0;
 }
 
 * {
@@ -13,11 +13,13 @@ body {
 }
 
 [class*="btn-block"] {
+  background-color: #1E629A;
   border-radius: 8px;
   border: 2px solid transparent;
+  color: #fff;
   display: inline-block;
-  font-weight: 700;
   font-size: 18px;
+  font-weight: 700;
   letter-spacing: 0.2px;
   margin-bottom: 0 !important;
   padding: 11px 64px;
@@ -28,52 +30,26 @@ body {
   white-space: nowrap;
 }
 
-.btn-block--secondary {
-  background-color: #2f5b88 !important;
-  color: #fff !important;
-}
-
-.btn-block--primary {
-  background-color: #faa74a !important;
-  color: #1e3860 !important;
-}
-
 [class*="btn-block"]:hover {
   background-color: transparent !important;
+  border-color: #1E629A;
+  color: #1E629A;
   opacity: 1 !important;
 }
 
-.btn-block--secondary:hover {
-  border-color: #2f5b88;
-  color: #2f5b88 !important;
-}
-
-.btn-block--primary:hover {
-  border-color: #faa74a;
-  color: #faa74a !important;
-}
-
 .btn-block--secondary:active {
-  background-color: #2f5b88 !important;
+  background-color: #1E629A !important;
   color: #fff !important;
-}
-
-.btn-block--primary:active {
-  background-color: #faa74a !important;
-  color: #1e3860 !important;
 }
 
 .bordered {
   border: 1px solid #d4d4d4;
 }
 
-
-
 .containment {
+  margin-inline: auto;
   max-width: 1200px;
   width: calc(100% - 4rem);
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .containment p {
@@ -92,34 +68,24 @@ p,
 }
 
 .framed {
-  padding: 32px 28px;
+  padding: 32px 24px;
 }
 
 .gradient-bg-blue {
-  background-image: linear-gradient(45deg, #051a3f 14.64%, #1e3860 48.42%, #4d85b0 85.36%);
+  background-color: #1E3860;
+}
+
+.gradient-bg-blue * {
   color: #fff;
 }
 
-.gradient-bg-slate {
-  background-image: linear-gradient(45deg, #ffffff 14.64%, #f4f4f4 85.36%);
-  color: #333d46;
-}
-
 .gradient-text {
-  background-image: linear-gradient(45deg, #051a3f 14.64%, #1e3860 48.42%, #4d85b0 85.36%);
-  background-size: 100%;
-  background-repeat: repeat;
-  display: inline-block;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
+  color: #1E3860;
 }
 
 .gray-theme {
-  color: #333d46;
-  background-color: #f4f4f4;
+  background-color: #E9F8FF;
+  color: #1F1F1F;
 }
 
 .d-flex {
@@ -133,8 +99,8 @@ p,
 .header-1,
 .header-2,
 .header-3 {
-  font-family: "Encode Sans";
-  font-weight: 600;
+  font-family: "Albert Sans";
+  font-weight: 700;
   line-height: 1.29;
 }
 
@@ -178,8 +144,7 @@ p,
 }
 
 .section-pad {
-  padding-bottom: 3.5rem;
-  padding-top: 3.5rem;
+  padding-block: 3.5rem;
 }
 
 .rounded {
@@ -192,16 +157,11 @@ p,
 }
 
 .section-pad-lg {
-  padding-bottom: 4.5rem;
-  padding-top: 4.5rem;
-}
-
-.section-spacer {
-  margin-top: 3.5rem;
+  padding-block: 4.5rem;
 }
 
 .slate {
-  color: #333d46;
+  color: #1F1F1F;
 }
 
 .d-grid {
@@ -209,30 +169,35 @@ p,
 }
 
 .header-row {
-  min-height: 80px;
   align-items: center;
   border-bottom: 1px solid #d4d4d4;
   justify-content: center;
+  min-height: 80px;
 }
 
 .header-row img {
-  max-width: 141px;
   height: auto;
+  max-width: 141px;
 }
 
 .hero-banner {
-  background-color: #1e262f;
   isolation: isolate;
   overflow: hidden;
   position: relative;
 }
+
 .hero-text {
   padding: 2rem 0;
 }
 
+.hero-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 .hero-img img {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
 }
 
 .hero-content {
@@ -253,10 +218,10 @@ p,
 }
 
 footer {
+  background-color: #14263d;
+  color: #fff;
   padding: 32px 0;
   width: 100%;
-  color: #fff;
-  background-color: #4a5560;
 }
 
 footer p {
@@ -281,11 +246,11 @@ footer p + p {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1281px) {
   .hero-banner .containment {
+      margin-left: calc((100vw - 1320px) / 2 + 60px);
       max-width: 1320px;
       width: calc(100% - calc((100vw - 1320px) / 2 + 60px));
-      margin-left: calc((100vw - 1320px) / 2 + 60px);
   }
 }
 
@@ -296,12 +261,7 @@ footer p + p {
 
   .section-pad,
   .section-pad-lg {
-      padding-bottom: 42px;
-      padding-top: 42px;
-  }
-
-  .section-spacer {
-      margin-top: 42px;
+      padding-block: 42px;
   }
 
   .d-flex.mobile {
@@ -403,7 +363,4 @@ footer p + p {
       width: calc(100% - 2rem);
   }
 
-  .tile-item {
-      padding-bottom: 48px;
-  }
 }
