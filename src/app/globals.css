@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@700&family=Inter:opsz@14..32&display=swap');
 
 body {
   color: #1f1f1f;
   font-size: 16px;
   line-height: 1.39;
   margin: 0;
+  font-family: "Inter";
+  font-weight: 400;
 }
 
 * {
@@ -19,6 +21,7 @@ body {
   color: #fff;
   display: inline-block;
   font-size: 18px;
+  font-family: "Albert Sans";
   font-weight: 700;
   letter-spacing: 0.2px;
   margin-bottom: 0 !important;

@@ -74,7 +74,7 @@ export default function Home() {
                 the symbol “AX” and is a component of the Russell 2000<sup>®</sup> Index and the S&P SmallCap
                 600<sup>®</sup>Index. For more
                 information about Axos Financial, Inc., please visit <a href="http://www.axosfinancial.com"
-                  style={{color:"#98DDFF"}}>www.axosfinancial.com</a>
+                  style={{color:"#FFF"}}>www.axosfinancial.com</a>
               </p>
             </div>
           </div>
