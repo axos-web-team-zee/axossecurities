@@ -22,7 +22,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="section-pad gray-theme">
+        <section className="section-pad gray-theme" style={{backgroundColor:"#fff"}}>
           <div className="containment">
             <div className="grid-wrapper d-grid">
               <div className="tile-item rounded bordered framed text-center bg-white">
