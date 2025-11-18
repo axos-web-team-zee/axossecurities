@@ -1,4 +1,3 @@
-
 export default function Home() {
   return (
     <>
@@ -23,7 +22,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="section-pad gray-theme">
+        <section className="section-pad gray-theme" style={{backgroundColor:"#fff"}}>
           <div className="containment">
             <div className="grid-wrapper d-grid">
               <div className="tile-item rounded bordered framed text-center bg-white">
@@ -75,7 +74,7 @@ export default function Home() {
                 the symbol “AX” and is a component of the Russell 2000<sup>®</sup> Index and the S&P SmallCap
                 600<sup>®</sup>Index. For more
                 information about Axos Financial, Inc., please visit <a href="http://www.axosfinancial.com"
-                  style={{color:"#faa74a"}}>www.axosfinancial.com</a>
+                  style={{color:"#FFF"}}>www.axosfinancial.com</a>
               </p>
             </div>
           </div>
@@ -83,7 +82,7 @@ export default function Home() {
       </main>
       <footer>
         <div className="containment">
-          <p>© 2022 Axos Securities, LLC. All rights reserved</p>
+          <p>© 2025 Axos Securities, LLC. All rights reserved</p>
           <p>Axos Securities, LLC. Is a wholly-owned subsidiary of Axos Financial, Inc.</p>
         </div>
       </footer>
